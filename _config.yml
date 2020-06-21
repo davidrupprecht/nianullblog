@@ -22,8 +22,8 @@ title: NIA Null Blog
 email: david.rupprecht@rub.de
 description: >- # this means to ignore newlines until "baseurl:"
   This blog aims to comment on mobile network security topics. 
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/nianullblog" # the subpath of your site, e.g. /blog
+url: "https://davidrupprecht.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pily112
 github_username:  davidrupprecht
 
