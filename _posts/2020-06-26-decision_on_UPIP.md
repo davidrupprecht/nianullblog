@@ -6,7 +6,7 @@ author: David Rupprecht
 categories: 5G integrity_protection 
 ---
 
-The plenary meeting of the 3GPP Security Group is held from 30. Juni to 3. July 2020. In preparation for the meeting, the Deutsche Telekom AG released a discussion paper with the title "Way forward on User Plane Integrity Protection." [[1](http://www.3gpp.org/ftp/tsg_sa/TSG_SA/TSGS_88E_Electronic/Docs/SP-200537.zip)] In this document, they identified seven observations regarding mandatory full-rate integrity protection, which I will partly comment on in the following. Based on this document, 3GPP will decide on the security of future 5G networks.  
+The plenary meeting of the 3GPP Security Group is held from 30. June to 3. July 2020. In preparation for the meeting, the Deutsche Telekom AG released a discussion paper with the title "Way forward on User Plane Integrity Protection." [[1](http://www.3gpp.org/ftp/tsg_sa/TSG_SA/TSGS_88E_Electronic/Docs/SP-200537.zip)] In this document, they identified seven observations regarding mandatory full-rate integrity protection, which I will partly comment on in the following. Based on this document, 3GPP will decide on the security of future 5G networks.  
 
 First of all, this document is backed by the support of many powerful providers, e.g., AT&T, Telefonica, and Vodafone, but also by import equipment manufacturers, e.g., Broadcom, Huawei, and HiSilicon. The providers' support shows that they have understood the need for mandatory full-rate integrity protection for 5G. Further, the backing of *some* network equipment vendors let me hope that full-rate protection is technically feasible. 
 
