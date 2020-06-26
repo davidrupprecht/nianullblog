@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "5G release-16 without mandatory full-rate integrity protection."
+title:  "5G Release-16 Without Mandatory Full-Rate Integrity Protection?"
 date:   2020-05-16 14:20:58 +0200
 author: David Rupprecht
-categories: integrity_protection 5G
+categories: 5G integrity_protection 
 ---
 
 Missing integrity protection is one of the biggest threats to the security of the present (LTE) and future (5G) mobile network generations. As demonstrated with the aLTEr and IMP4GT attack, an attacker only in the vicinity of the victim can break the fundamental security aims [[1][1],[2][2]]. The aLTEr attack allows an attacker to redirect to a malicious website by manipulating the destination address of IP packets. With the IMP4GT attack, an attacker can forge arbitrary and read arbitrary IP packets, which lead to a full impersonation of a victim towards the network and vice versa. With this impersonation, an attacker can bypass any operators' firewall mechanism. Both attacks exploit the lack of integrity protection of the user plane in LTE. However, also, the current 5G specification does not mandate full rate user plane integrity protection, which makes them vulnerable to the same attacks. Those 5G networks will surround us for the next few decades. Therefore, is mandatory user plane integrity protection indispensably connected with the security of 5G.
@@ -13,7 +13,7 @@ Responsible for adding mandatory full-rate integrity protection to 5G networks i
 To mitigate the threat of those attacks in 5G networks, a large group of providers and some vendors have attempted to mandate integrity protection in the 5G specification [[3][3],[4][4]].  This was already in March. However, this attempt was postponed due to some vendors' objection, mainly baseband vendors, e.g., Qualcomm, OPPO, and Samsung [[5][5],[6][6]]. They argue that it is challenging to integrate full-rate integrity protection due to the performance requirements and need more technical discussion on a working group level [[7][7]]. Last week (11-15. May 2020), another attempt tried to add mandatory full rate integrity protection [[8][8],[8a][8a]]. Again this was postponed (3GPP term "noted") by the vendors [[9][9],[10][10],[11][11]]. This was the last chance to secure 5G networks against substantial attacks. Consequently, we will use insecure 5G standalone networks in two years.
 
 
-#### Personal Comment 
+#### Conclusion
 The issue of missing integrity protection is known since March 2018 [[1][1]]. Some 3GPP documents even date back to 2006, stating that missing integrity protection can be a security problem [[12][12]]. This gives the impression that manufacturers are not taking the problem seriously. However, I also understand that securing things is a difficult job, particularly with complex stack architecture and performance requirements. However, this problem is known for at least two years. Thus I ask myself, what is the exact problem? Can we (research and 3GPP community) solve those problems with improved integrity protecting algorithm? Therefore, if you are a vendor facing these problems, please reach out (to me) and describe the exact issues. 
 
 [1]: http://www.alter-attack.net
