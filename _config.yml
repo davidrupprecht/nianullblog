@@ -26,7 +26,7 @@ baseurl: "/nianullblog" # the subpath of your site, e.g. /blog
 url: "https://davidrupprecht.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: pily112
 github_username:  davidrupprecht
-google_analytics: UA-170876613-1
+#google_analytics: UA-170876613-1
 
 # Build settings
 theme: minima
