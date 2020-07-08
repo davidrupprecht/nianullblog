@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "5G with Mandatory Full-Rate Integrity Protection (to support)!"
-date:   2020-05-16 12:00:00 +0200
+date:   2020-07-08 12:00:00 +0200
 author: David Rupprecht
 categories: 5G integrity_protection 
 ---
